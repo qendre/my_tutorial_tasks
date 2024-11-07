@@ -1,0 +1,46 @@
+<launch>
+        <include file="$(find match_gazebo)/launch/big_square.launch"/>
+
+        <arg name="spawn_multi_robots"  default="true"/>
+
+        <group if="$(eval arg('spawn_multi_robots') ==true)">
+
+            <arg name="robot1_name"  default="mir1"/>
+            <arg name="robot2_name"  default="mir2"/>
+            <arg name="robot3_name"  default="mir3"/>
+
+            <include file="$(find mir_launch_sim)/launch/mir_200.launch" ns="$(arg robot1_name)">
+                <arg name="robot_x"     default="0.0" />
+                <arg name="robot_y"     default="0.5" />
+                <arg name="robot_yaw"   default="0.0" /> 
+                <arg name="tf_prefix"   default="$(arg robot1_name)" />       
+                <arg name="model_name"  default="$(arg robot1_name)"/>
+            </include>
+
+
+            <include file="$(find mir_launch_sim)/launch/mir_200.launch" ns="$(arg robot2_name)">
+                <arg name="robot_x"     default="0.0" />
+                <arg name="robot_y"     default="-0.5" />
+                <arg name="robot_yaw"   default="0.0" /> 
+                <arg name="tf_prefix"   default="$(arg robot2_name)" />       
+                <arg name="model_name"  default="$(arg robot2_name)"/>
+            </include>
+
+
+            <include file="$(find mir_launch_sim)/launch/mir_200.launch" ns="$(arg robot3_name)">
+                <arg name="robot_x"     default="2.0" />
+                <arg name="robot_y"     default="0.0" />
+                <arg name="robot_yaw"   default="0.0" /> 
+                <arg name="tf_prefix"   default="$(arg robot3_name)" />       
+                <arg name="model_name"  default="$(arg robot3_name)"/>
+            </include>
+
+        <node name="rviz" pkg="rviz" type="rviz" args="-d $(find match_tutorials)/rviz/config_multi.rviz" />
+        </group>
+
+        <group unless="$(eval arg('spawn_multi_robots') ==true)">
+            <include file="$(find mir_launch_sim)/launch/mir_100.launch"/>
+            <node type="rviz" name="rviz" pkg="rviz" args="-d $(find match_tutorials)/rviz/config.rviz" />
+        </group>
+
+</launch>
