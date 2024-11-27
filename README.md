@@ -14,3 +14,9 @@ Here is a list of useful links for my project
 7. Vision-based Obstacle Avoidance Algorithm for Mobile Robot - https://ieeexplore.ieee.org/document/9326906
 8. Heuristic approaches in robot path planning: A survey - https://www.sciencedirect.com/science/article/pii/S0921889015300671
 9. Faster Implementation of The Dynamic Window Approach Based on Non-Discrete Path Representation - https://www.mdpi.com/2227-7390/11/21/4424?utm_source=chatgpt.com
+
+
+MIR
+1.https://mobile-industrial-robots.com/products/robots/mir600/specifications
+2.https://www.dreamland-robots.cz/wp-content/uploads/2021/08/MiR600-_-Mobile-Industrial-Robots.pdf?utm_source=chatgpt.com
+3.
