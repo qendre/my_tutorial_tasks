@@ -13,3 +13,4 @@ Here is a list of useful links for my project
 6. Mobile robot monocular vision-based obstacle avoidance algorithm using a deep neural network - https://link.springer.com/article/10.1007/s12065-023-00829-z
 7. Vision-based Obstacle Avoidance Algorithm for Mobile Robot - https://ieeexplore.ieee.org/document/9326906
 8. Heuristic approaches in robot path planning: A survey - https://www.sciencedirect.com/science/article/pii/S0921889015300671
+9. Faster Implementation of The Dynamic Window Approach Based on Non-Discrete Path Representation - https://www.mdpi.com/2227-7390/11/21/4424?utm_source=chatgpt.com
