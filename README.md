@@ -3,6 +3,7 @@ Here is a list of useful links for my project
 - YOLO Object detection https://www.datacamp.com/blog/yolo-object-detection-explained?dc_referrer=https%3A%2F%2Fwww.google.com%2F
 - Path Planning algorithms - https://github.com/zhm-real/PathPlanning?tab=readme-ov-file
 - Robotics Knowledge base https://roboticsknowledgebase.com/wiki/
+- Scribbr helping with writing a thesis - https://www.scribbr.com/category/research-process/
 
 - Useful research papers:
 1. Obstacle Avoidance and Path Planning Methods for Autonomous Navigation of Mobile Robot - https://www.mdpi.com/1424-8220/24/11/3573
