@@ -5,6 +5,12 @@ Here is a list of useful links for my project
 - Robotics Knowledge base https://roboticsknowledgebase.com/wiki/
 - Scribbr helping with writing a thesis - https://www.scribbr.com/category/research-process/
 - Very easy object detection and segmentation - https://github.com/IDEA-Research/Grounded-Segment-Anything
+- Path planner example - https://github.com/nobleo/full_coverage_path_planner
+- costmap 2d - http://wiki.ros.org/costmap_2d
+- move base flex- https://github.com/naturerobots/move_base_flex/blob/master/README.md
+- move base flex tutorials - https://wiki.ros.org/move_base_flex/Tutorials/NavCoreBasedLocalPlannersToMBF?utm_source=chatgpt.com
+- locel pp from match example - https://github.com/match-ROS/formation-path-planning/blob/main/fpc_ros/include/fpc_ros/fpc_ros.h
+- pluginlib - http://wiki.ros.org/pluginlib/Tutorials/Writing%20and%20Using%20a%20Simple%20Plugin
 
 - Useful research papers:
 1. Obstacle Avoidance and Path Planning Methods for Autonomous Navigation of Mobile Robot - https://www.mdpi.com/1424-8220/24/11/3573
